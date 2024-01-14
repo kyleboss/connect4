@@ -14,7 +14,7 @@ This version of ConnectFour is built with Next.js and utilizes WebSockets for re
 
 To get started with the ConnectFour app, clone the repository and install the dependencies:
 
-```bash
+```
 git clone https://github.com/kyleboss/connet4.git
 cd connect4
 yarn install
@@ -24,16 +24,16 @@ yarn install
 
 You can run the app in development mode with:
 
-\```bash
+```
 yarn dev
-\```
+```
 
 For production build and start, use:
 
-\```bash
+```
 yarn build
 yarn start
-\```
+```
 
 ## Usage
 
@@ -47,9 +47,9 @@ To explore the guest experience, open the game in at least three tabs.
 
 Run tests using:
 
-\```bash
+```
 yarn test
-\```
+```
 
 ## Dependencies
 
