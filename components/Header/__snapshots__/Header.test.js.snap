@@ -3,7 +3,7 @@
 exports[`Header renders correctly 1`] = `
 <DocumentFragment>
   <h1
-    class="sc-69bb2827-0 iUjoYw"
+    class="sc-f9cd8f8e-0 dcLxvF"
   >
     Hello World
   </h1>

@@ -3,36 +3,253 @@
 exports[`Board renders correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-e1fcfd44-0 dyIQsa"
+    class="sc-3d27adad-0 gUhoBd"
   >
     <div
-      class="sc-2b7f7c93-0 bONUyQ"
-      role="button "
-    />
+      class="sc-f2875b93-0 jmOuLZ"
+      data-testid="column"
+      lastemptyslotindex="6"
+      role="button"
+    >
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+    </div>
     <div
-      class="sc-2b7f7c93-0 bONUyQ"
-      role="button "
-    />
+      class="sc-f2875b93-0 jmOuLZ"
+      data-testid="column"
+      lastemptyslotindex="6"
+      role="button"
+    >
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+    </div>
     <div
-      class="sc-2b7f7c93-0 bONUyQ"
-      role="button "
-    />
+      class="sc-f2875b93-0 jmOuLZ"
+      data-testid="column"
+      lastemptyslotindex="6"
+      role="button"
+    >
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+    </div>
     <div
-      class="sc-2b7f7c93-0 bONUyQ"
-      role="button "
-    />
+      class="sc-f2875b93-0 jmOuLZ"
+      data-testid="column"
+      lastemptyslotindex="6"
+      role="button"
+    >
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+    </div>
     <div
-      class="sc-2b7f7c93-0 bONUyQ"
-      role="button "
-    />
+      class="sc-f2875b93-0 jmOuLZ"
+      data-testid="column"
+      lastemptyslotindex="6"
+      role="button"
+    >
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+    </div>
     <div
-      class="sc-2b7f7c93-0 bONUyQ"
-      role="button "
-    />
+      class="sc-f2875b93-0 jmOuLZ"
+      data-testid="column"
+      lastemptyslotindex="6"
+      role="button"
+    >
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+    </div>
     <div
-      class="sc-2b7f7c93-0 bONUyQ"
-      role="button "
-    />
+      class="sc-f2875b93-0 jmOuLZ"
+      data-testid="column"
+      lastemptyslotindex="6"
+      role="button"
+    >
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+      <div
+        class="sc-c82c2887-0 dsecsa"
+        data-testid="slot"
+      />
+    </div>
   </div>
 </DocumentFragment>
 `;

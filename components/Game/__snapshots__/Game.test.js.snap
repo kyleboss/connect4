@@ -3,17 +3,17 @@
 exports[`Game renders GameOver when gameState is game over 1`] = `
 <DocumentFragment>
   <h1
-    class="sc-69bb2827-0 iUjoYw"
+    class="sc-f9cd8f8e-0 dcLxvF"
   >
     Game over.
   </h1>
   <h2
-    class="sc-b8c48683-0 iZmNFj"
+    class="sc-773df940-0 icsDSx"
   >
     undefined won.
   </h2>
   <button
-    class="sc-c2948911-0 fZBMRl"
+    class="sc-5e2d1029-0 NWVxU"
   >
     New Game
   </button>
@@ -23,7 +23,7 @@ exports[`Game renders GameOver when gameState is game over 1`] = `
 exports[`Game renders WaitingForPlayers when gameState is waiting 1`] = `
 <DocumentFragment>
   <h1
-    class="sc-69bb2827-0 iUjoYw"
+    class="sc-f9cd8f8e-0 dcLxvF"
   >
     Waiting for opponent...
   </h1>
@@ -33,7 +33,7 @@ exports[`Game renders WaitingForPlayers when gameState is waiting 1`] = `
 exports[`Game renders the game board, YourTurn and Reset button for players 1`] = `
 <DocumentFragment>
   <h1
-    class="sc-69bb2827-0 iUjoYw"
+    class="sc-f9cd8f8e-0 dcLxvF"
   />
   <div>
     Mocked YourTurn
@@ -42,7 +42,7 @@ exports[`Game renders the game board, YourTurn and Reset button for players 1`] 
     Mocked Board
   </div>
   <button
-    class="sc-c2948911-0 fZBMRl"
+    class="sc-5e2d1029-0 NWVxU"
   >
     Reset Game
   </button>

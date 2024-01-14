@@ -9,17 +9,21 @@ const dropAnimation = keyframes`
   100% { transform: translateY(0); }
 `;
 
-const StyledSlot = styled.div.attrs({ role: "button " })`
+const StyledSlot = styled.div`
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 10vw;
+  height: 10vw;
+  max-width: 50px;
+  max-height: 50px;
+
   border: 1px solid rgb(var(--color-black));
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: ${({ disabled }) => (disabled ? "default" : "pointer")};
   background-color: rgb(var(--color-white));
+  margin: 5px 0;
+  transition: opacity 0.2s ease;
 
   &::after {
     content: "";
@@ -44,8 +48,8 @@ const StyledSlot = styled.div.attrs({ role: "button " })`
   }
 `;
 
-const Slot = ({ value, onClick, disabled }) => {
-  return <StyledSlot value={value} onClick={onClick} disabled={disabled} />;
+const Slot = ({ value, onClick }) => {
+  return <StyledSlot data-testid="slot" value={value} onClick={onClick} />;
 };
 
 export default Slot;

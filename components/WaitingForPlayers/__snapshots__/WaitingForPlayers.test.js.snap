@@ -3,12 +3,12 @@
 exports[`WaitingForPlayers renders correctly for a guest user 1`] = `
 <DocumentFragment>
   <h1
-    class="sc-69bb2827-0 iUjoYw"
+    class="sc-f9cd8f8e-0 dcLxvF"
   >
     Waiting for player...
   </h1>
   <button
-    class="sc-c2948911-0 fZBMRl"
+    class="sc-5e2d1029-0 NWVxU"
   >
     Join Game
   </button>
@@ -18,7 +18,7 @@ exports[`WaitingForPlayers renders correctly for a guest user 1`] = `
 exports[`WaitingForPlayers renders correctly for a non-guest user 1`] = `
 <DocumentFragment>
   <h1
-    class="sc-69bb2827-0 iUjoYw"
+    class="sc-f9cd8f8e-0 dcLxvF"
   >
     Waiting for opponent...
   </h1>

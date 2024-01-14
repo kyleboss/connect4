@@ -3,7 +3,7 @@
 exports[`ConfettiAnimation renders correctly when it is the user's win 1`] = `
 <DocumentFragment>
   <div
-    class="sc-94caac3c-0 jfkWeT"
+    class="sc-abf87179-0 kBIIjH"
   />
 </DocumentFragment>
 `;
@@ -11,7 +11,7 @@ exports[`ConfettiAnimation renders correctly when it is the user's win 1`] = `
 exports[`ConfettiAnimation renders correctly when it is the user's win 2`] = `
 <DocumentFragment>
   <div
-    class="sc-94caac3c-0 jfkWeT"
+    class="sc-abf87179-0 kBIIjH"
   />
 </DocumentFragment>
 `;

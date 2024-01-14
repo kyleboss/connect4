@@ -3,8 +3,8 @@
 exports[`Slot renders a red slot correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-2b7f7c93-0 ewezXh"
-    role="button "
+    class="sc-c82c2887-0 KEhzL"
+    data-testid="slot"
     value="USER_ROLE_RED"
   />
 </DocumentFragment>
@@ -13,8 +13,8 @@ exports[`Slot renders a red slot correctly 1`] = `
 exports[`Slot renders a yellow slot correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-2b7f7c93-0 cNAEWC"
-    role="button "
+    class="sc-c82c2887-0 kasYuU"
+    data-testid="slot"
     value="USER_ROLE_YELLOW"
   />
 </DocumentFragment>
@@ -23,8 +23,8 @@ exports[`Slot renders a yellow slot correctly 1`] = `
 exports[`Slot renders an empty slot correctly 1`] = `
 <DocumentFragment>
   <div
-    class="sc-2b7f7c93-0 bONUyQ"
-    role="button "
+    class="sc-c82c2887-0 dsecsa"
+    data-testid="slot"
   />
 </DocumentFragment>
 `;

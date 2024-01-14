@@ -1,30 +1,29 @@
+import React from "react";
 import styled from "styled-components";
-
 import useGame from "@/hooks/useGame";
-import Slot from "@/components/Slot";
+import Column from "@/components/Column";
+import { TABLET_AND_LARGER_SIZE } from "@/utils/constants";
 
 const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 10px;
-  margin: 0 20px 50px 0;
+  gap: 5px;
+  margin: 0 10px 25px 10px;
+
+  @media (min-width: ${TABLET_AND_LARGER_SIZE}) {
+    gap: 10px;
+    margin: 0 20px 50px 20px;
+  }
 `;
 
 const Board = () => {
-  const { board, makeMove, currentPlayer, userRole } = useGame();
+  const { board } = useGame();
 
   return (
     <Container>
-      {board.map((row, rowIndex) =>
-        row.map((cell, columnIndex) => (
-          <Slot
-            key={`${rowIndex}-${columnIndex}`}
-            value={cell}
-            onClick={() => makeMove(columnIndex)}
-            disabled={currentPlayer !== userRole || cell}
-          />
-        ))
-      )}
+      {board[0].map((_, columnIndex) => (
+        <Column key={columnIndex} columnIndex={columnIndex} />
+      ))}
     </Container>
   );
 };

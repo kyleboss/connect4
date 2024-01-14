@@ -21,6 +21,9 @@ const SERVER_PORT = 3001;
 const CLIENT_URL = `http://localhost:${CLIENT_PORT}`;
 const SERVER_URL = `http://localhost:${SERVER_PORT}`;
 
+// mobile-first development size cut-off
+const TABLET_AND_LARGER_SIZE = "600px";
+
 // Socket Events
 const SOCKET_EVENT_JOIN_GAME = "SOCKET_EVENT_JOIN_GAME";
 const SOCKET_EVENT_RESET_GAME = "SOCKET_EVENT_RESET_GAME";
@@ -51,4 +54,5 @@ module.exports = {
   SOCKET_EVENT_UPDATE_STATE,
   SOCKET_EVENT_CONNECTION,
   SOCKET_EVENT_DISCONNECT,
+  TABLET_AND_LARGER_SIZE,
 };

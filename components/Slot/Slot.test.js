@@ -19,10 +19,4 @@ describe("Slot", () => {
     const { asFragment } = render(<Slot value={USER_ROLE_YELLOW} />);
     expect(asFragment()).toMatchSnapshot();
   });
-
-  it("renders a disabled slot correctly", () => {
-    const { getByRole } = render(<Slot disabled />);
-    const slot = getByRole("button");
-    expect(slot).toHaveStyle("cursor: default");
-  });
 });
