@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameProvider renders correctly and provides context 1`] = `
+<DocumentFragment>
+  <div>
+    <p>
+      Board: |, , , , , , ||, , , , , , ||, , , , , , ||, , , , , , ||, , , , , , ||, , , , , , |
+    </p>
+    <p>
+      Current Player: USER_ROLE_RED
+    </p>
+    <p>
+      Game State: GAME_STATE_WAITING
+    </p>
+    <p>
+      Winner: null
+    </p>
+    <p>
+      User Role: null
+    </p>
+  </div>
+</DocumentFragment>
+`;

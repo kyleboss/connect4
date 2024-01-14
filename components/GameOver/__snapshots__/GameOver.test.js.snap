@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameOver renders correctly when the user loses 1`] = `
+<DocumentFragment>
+  <h1
+    class="sc-69bb2827-0 iUjoYw"
+  >
+    Game over.
+  </h1>
+  <h2
+    class="sc-b8c48683-0 iZmNFj"
+  >
+    Red won.
+  </h2>
+  <button
+    class="sc-c2948911-0 fZBMRl"
+  >
+    New Game
+  </button>
+</DocumentFragment>
+`;
+
+exports[`GameOver renders correctly when the user wins 1`] = `
+<DocumentFragment>
+  <h1
+    class="sc-69bb2827-0 iUjoYw"
+  >
+    Congratulations! 🎉
+  </h1>
+  <h2
+    class="sc-b8c48683-0 iZmNFj"
+  >
+    You won.
+  </h2>
+  <button
+    class="sc-c2948911-0 fZBMRl"
+  >
+    New Game
+  </button>
+</DocumentFragment>
+`;

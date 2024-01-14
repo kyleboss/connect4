@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<DocumentFragment>
+  <h1
+    class="sc-69bb2827-0 iUjoYw"
+  >
+    Hello World
+  </h1>
+</DocumentFragment>
+`;

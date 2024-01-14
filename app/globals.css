@@ -1,4 +1,9 @@
 :root {
+  --color-red: 255, 0, 0;
+  --color-yellow: 255, 255, 0;
+  --color-black: 0, 0, 0;
+  --color-white: 255, 255, 255;
+  
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Game renders GameOver when gameState is game over 1`] = `
+<DocumentFragment>
+  <h1
+    class="sc-69bb2827-0 iUjoYw"
+  >
+    Game over.
+  </h1>
+  <h2
+    class="sc-b8c48683-0 iZmNFj"
+  >
+    undefined won.
+  </h2>
+  <button
+    class="sc-c2948911-0 fZBMRl"
+  >
+    New Game
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Game renders WaitingForPlayers when gameState is waiting 1`] = `
+<DocumentFragment>
+  <h1
+    class="sc-69bb2827-0 iUjoYw"
+  >
+    Waiting for opponent...
+  </h1>
+</DocumentFragment>
+`;
+
+exports[`Game renders the game board, YourTurn and Reset button for players 1`] = `
+<DocumentFragment>
+  <h1
+    class="sc-69bb2827-0 iUjoYw"
+  />
+  <div>
+    Mocked YourTurn
+  </div>
+  <div>
+    Mocked Board
+  </div>
+  <button
+    class="sc-c2948911-0 fZBMRl"
+  >
+    Reset Game
+  </button>
+</DocumentFragment>
+`;

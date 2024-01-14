@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SoundEffects renders correctly 1`] = `
+<DocumentFragment>
+  <span
+    class="sc-7431bd22-0 hhzhNH"
+    role="button"
+  >
+    🔔
+  </span>
+</DocumentFragment>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Subheader renders correctly 1`] = `
+<DocumentFragment>
+  <h2
+    class="sc-b8c48683-0 iZmNFj"
+  >
+    Sample Text
+  </h2>
+</DocumentFragment>
+`;

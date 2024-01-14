@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-e1fcfd44-0 dyIQsa"
+  >
+    <div
+      class="sc-2b7f7c93-0 bONUyQ"
+      role="button "
+    />
+    <div
+      class="sc-2b7f7c93-0 bONUyQ"
+      role="button "
+    />
+    <div
+      class="sc-2b7f7c93-0 bONUyQ"
+      role="button "
+    />
+    <div
+      class="sc-2b7f7c93-0 bONUyQ"
+      role="button "
+    />
+    <div
+      class="sc-2b7f7c93-0 bONUyQ"
+      role="button "
+    />
+    <div
+      class="sc-2b7f7c93-0 bONUyQ"
+      role="button "
+    />
+    <div
+      class="sc-2b7f7c93-0 bONUyQ"
+      role="button "
+    />
+  </div>
+</DocumentFragment>
+`;

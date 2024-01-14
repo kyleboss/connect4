@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ConnectFour NextJS App
 
-## Getting Started
+ConnectFour is a classic two-player connection game in which the players first choose a color and then take turns dropping colored discs into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own discs.
 
-First, run the development server:
+This version of ConnectFour is built with Next.js and utilizes WebSockets for real-time gameplay.
+
+## Features
+
+- Real-time gameplay with WebSockets. Try it out by opening the 
+- Built-in sounds mute capabilities.
+- Interactive UI with animations.
+
+## Installation
+
+To get started with the ConnectFour app, clone the repository and install the dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/kyleboss/connet4.git
+cd connect4
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Running the App
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can run the app in development mode with:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+\```bash
+yarn dev
+\```
 
-## Learn More
+For production build and start, use:
 
-To learn more about Next.js, take a look at the following resources:
+\```bash
+yarn build
+yarn start
+\```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+After starting the app, navigate to `http://localhost:3000` (or your custom port if modified) in your browser to start playing the game.
 
-## Deploy on Vercel
+For the game to begin, open it up in two tabs/windows.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To explore the guest experience, open the game in at least three tabs.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Testing
+
+Run tests using:
+
+\```bash
+yarn test
+\```
+
+## Dependencies
+
+- Express: For setting up the server.
+- Socket.io: For real-time communication between clients and the server.
+- Styled Components: For styling the React components.
+- use-sound: For adding sound effects to the game.
+- Lottie: For rendering animations.
+
+## Development
+
+- React: For building the user interface.
+- Next.js: For server-side rendering and static generation.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request.
+
+## License
+
+[MIT License](LICENSE) - feel free to use and modify the code for your personal or commercial projects
