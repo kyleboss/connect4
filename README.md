@@ -15,7 +15,7 @@ This version of ConnectFour is built with Next.js and utilizes WebSockets for re
 To get started with the ConnectFour app, clone the repository and install the dependencies:
 
 ```
-git clone https://github.com/kyleboss/connet4.git
+git clone https://github.com/kyleboss/connect4.git
 cd connect4
 yarn install
 ```
