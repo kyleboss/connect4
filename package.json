@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "concurrently 'yarn server' 'next dev'",
     "build": "next build",
-    "start": "next start",
+    "start": "concurrently 'yarn server' 'next start'",
     "lint": "next lint",
     "server": "node server/server.js",
     "test": "jest"
