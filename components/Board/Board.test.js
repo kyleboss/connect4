@@ -1,6 +1,6 @@
 import { render, fireEvent } from "@testing-library/react";
 
-import { USE_ROLE_RED } from "@/utils/constants";
+import { USER_ROLE_RED } from "@/utils/constants";
 
 import useGame from "../../hooks/useGame";
 import Board from "./Board";
@@ -18,8 +18,8 @@ jest.mock("../../hooks/useGame", () => ({
       [null, null, null, null, null, null, null],
     ],
     makeMove: jest.fn(),
-    currentPlayer: USE_ROLE_RED,
-    userRole: USE_ROLE_RED,
+    currentPlayer: USER_ROLE_RED,
+    userRole: USER_ROLE_RED,
   })),
 }));
 describe("Board", () => {

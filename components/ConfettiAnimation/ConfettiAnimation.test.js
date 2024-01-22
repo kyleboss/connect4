@@ -2,6 +2,8 @@ import React from "react";
 import { render } from "@testing-library/react";
 import lottie from "lottie-web";
 
+import { USER_ROLE_RED, USER_ROLE_YELLOW } from "@/utils/constants";
+
 import ConfettiAnimation from "./ConfettiAnimation";
 import useGame from "../../hooks/useGame";
 
@@ -21,9 +23,9 @@ jest.mock("../../hooks/useGame", () => ({
 describe("ConfettiAnimation", () => {
   it("renders correctly when it is the user's win", () => {
     useGame.mockImplementation(() => ({
-      userRole: "Red",
-      gameState: "GAME_STATE_GAME_OVER",
-      winner: "Red",
+      userRole: USER_ROLE_RED,
+      gameState: GAME_STATE_GAME_OVER,
+      winner: USER_ROLE_RED,
     }));
 
     const { asFragment } = render(<ConfettiAnimation />);
@@ -32,9 +34,9 @@ describe("ConfettiAnimation", () => {
 
   it("renders correctly when it is the user's win", () => {
     useGame.mockImplementation(() => ({
-      userRole: "Red",
-      gameState: "GAME_STATE_GAME_OVER",
-      winner: "Red",
+      userRole: USER_ROLE_RED,
+      gameState: GAME_STATE_GAME_OVER,
+      winner: USER_ROLE_RED,
     }));
 
     const { asFragment } = render(<ConfettiAnimation />);
@@ -43,9 +45,9 @@ describe("ConfettiAnimation", () => {
 
   it("loads but does not play animation when it is not the user's win", () => {
     useGame.mockImplementation(() => ({
-      userRole: "Yellow",
-      gameState: "GAME_STATE_GAME_OVER",
-      winner: "Red",
+      userRole: USER_ROLE_YELLOW,
+      gameState: GAME_STATE_GAME_OVER,
+      winner: USER_ROLE_RED,
     }));
 
     render(<ConfettiAnimation />);
