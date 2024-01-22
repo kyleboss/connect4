@@ -6,6 +6,7 @@ import { USER_ROLE_RED, USER_ROLE_YELLOW } from "@/utils/constants";
 
 import ConfettiAnimation from "./ConfettiAnimation";
 import useGame from "../../hooks/useGame";
+import { GAME_STATE_GAME_OVER } from "../../utils/constants";
 
 jest.mock("lottie-web", () => ({
   loadAnimation: jest.fn().mockReturnValue({
